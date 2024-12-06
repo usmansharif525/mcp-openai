@@ -43,10 +43,18 @@ This config lets Claude Desktop fire up the OpenAI MCP server whenever you need 
 
 ## Usage
 
-Just start chatting with Claude and when you want to use OpenAI's models, ask Claude to use them. For example, you can ask,
+Just start chatting with Claude and when you want to use OpenAI's models, ask Claude to use them. 
+
+For example, you can say,
 
 ```plaintext
 Can you ask o1 what it thinks about this problem?
+```
+
+or,
+
+```plaintext
+What does gpt-4o think about this?
 ```
 
 The server currently supports these models:
