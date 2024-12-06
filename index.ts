@@ -32,7 +32,7 @@ type SupportedModel = typeof SUPPORTED_MODELS[number];
 // Define available tools
 const TOOLS: Tool[] = [
     {
-        name: "chat_completion",
+        name: "openai_chat",
         description: `Use this tool when a user specifically requests to use one of OpenAI's models (${SUPPORTED_MODELS.join(", ")}). This tool sends messages to OpenAI's chat completion API using the specified model.`,
         inputSchema: {
             type: "object",
@@ -92,7 +92,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request): Promise<{
     isError?: boolean;
 }> => {
     switch (request.params.name) {
-        case "chat_completion": {
+        case "openai_chat": {
             try {
                 // Parse request arguments
                 const { messages: rawMessages, model } = request.params.arguments as {
