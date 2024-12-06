@@ -1,10 +1,14 @@
 {
   "name": "@mzxrai/mcp-openai",
-  "version": "0.2.0",
+  "version": "0.1.1",
   "description": "MCP server for simple interaction with OpenAI API",
   "license": "MIT",
   "author": "mzxrai",
   "homepage": "https://github.com/mzxrai/mcp-openai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mzxrai/mcp-openai.git"
+  },
   "bugs": "https://github.com/mzxrai/mcp-openai/issues",
   "type": "module",
   "bin": {

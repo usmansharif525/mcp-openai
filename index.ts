@@ -72,7 +72,7 @@ const TOOLS: Tool[] = [
 const server = new Server(
     {
         name: "mcp-openai",
-        version: "0.1.0",
+        version: "0.1.1",
     },
     {
         capabilities: {
