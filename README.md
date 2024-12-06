@@ -28,7 +28,7 @@ Add this entry to your `claude_desktop_config.json` (on Mac, you'll find it at `
 ```json
 {
   "mcpServers": {
-    "openai": {
+    "mcp-openai": {
       "command": "npx",
       "args": ["-y", "@mzxrai/mcp-openai@latest"],
       "env": {

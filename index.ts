@@ -71,7 +71,7 @@ const TOOLS: Tool[] = [
 // Initialize MCP server
 const server = new Server(
     {
-        name: "openai",
+        name: "mcp-openai",
         version: "0.1.0",
     },
     {
