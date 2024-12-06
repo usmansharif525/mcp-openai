@@ -33,7 +33,7 @@ type SupportedModel = typeof SUPPORTED_MODELS[number];
 const TOOLS: Tool[] = [
     {
         name: "chat_completion",
-        description: `Use this tool when a user specifically requests to use ${SUPPORTED_MODELS.join(", ")}. This tool sends messages to OpenAI's chat completion API using the specified model.`,
+        description: `Use this tool when a user specifically requests to use one of OpenAI's models (${SUPPORTED_MODELS.join(", ")}). This tool sends messages to OpenAI's chat completion API using the specified model.`,
         inputSchema: {
             type: "object",
             properties: {
@@ -114,8 +114,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request): Promise<{
                 // Call OpenAI API with fixed temperature
                 const completion = await openai.chat.completions.create({
                     messages,
-                    model: model!,
-                    temperature: 0.7
+                    model: model!
                 });
 
                 // Return the response
