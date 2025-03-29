@@ -6,6 +6,7 @@ A Model Context Protocol (MCP) server that lets you seamlessly use OpenAI's mode
 
 - Direct integration with OpenAI's chat models
 - Support for multiple models including:
+  - chatgpt-4o-latest
   - gpt-4o
   - gpt-4o-mini
   - o1-preview
@@ -30,7 +31,7 @@ Add this entry to your `claude_desktop_config.json` (on Mac, you'll find it at `
   "mcpServers": {
     "mcp-openai": {
       "command": "npx",
-      "args": ["-y", "@usmansharif525/mcp-openai@latest"],
+      "args": ["-y", "@usmansharif/mcp-openai@latest"],
       "env": {
         "OPENAI_API_KEY": "your-api-key-here (get one from https://platform.openai.com/api-keys)"
       }
@@ -59,7 +60,8 @@ What does gpt-4o think about this?
 
 The server currently supports these models:
 
-- gpt-4o (default)
+- chatgpt-4o-latest (default)
+- gpt-4o
 - gpt-4o-mini
 - o1-preview
 - o1-mini

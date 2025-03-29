@@ -26,13 +26,13 @@ const openai = new OpenAI({
 
 // Define supported models
 const SUPPORTED_MODELS = [
-  "gpt-4o-latest",
+  "chatgpt-4o-latest",
   "gpt-4o",
   "gpt-4o-mini",
   "o1-preview",
   "o1-mini",
 ] as const;
-const DEFAULT_MODEL = "gpt-4o-latest" as const;
+const DEFAULT_MODEL = "chatgpt-4o-latest" as const;
 type SupportedModel = (typeof SUPPORTED_MODELS)[number];
 
 // Define available tools
