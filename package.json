@@ -1,6 +1,6 @@
 {
   "name": "@usmansharif/mcp-openai",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "MCP server for simple interaction with OpenAI API",
   "license": "MIT",
   "author": "usmansharif525",
