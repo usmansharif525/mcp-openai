@@ -12,7 +12,7 @@
   "bugs": "https://github.com/usmansharif525/mcp-openai/issues",
   "type": "module",
   "bin": {
-    "mcp-server-webresearch": "dist/index.js"
+    "mcp-openai": "dist/index.js"
   },
   "files": [
     "dist"
