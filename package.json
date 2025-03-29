@@ -1,15 +1,15 @@
 {
-  "name": "@mzxrai/mcp-openai",
+  "name": "@usmansharif525/mcp-openai",
   "version": "0.1.1",
   "description": "MCP server for simple interaction with OpenAI API",
   "license": "MIT",
-  "author": "mzxrai",
-  "homepage": "https://github.com/mzxrai/mcp-openai",
+  "author": "usmansharif525",
+  "homepage": "https://github.com/usmansharif525/mcp-openai",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mzxrai/mcp-openai.git"
+    "url": "https://github.com/usmansharif525/mcp-openai.git"
   },
-  "bugs": "https://github.com/mzxrai/mcp-openai/issues",
+  "bugs": "https://github.com/usmansharif525/mcp-openai/issues",
   "type": "module",
   "bin": {
     "mcp-server-webresearch": "dist/index.js"
@@ -19,7 +19,7 @@
   ],
   "scripts": {
     "build": "tsc && shx chmod +x dist/*.js",
-    "prepare": "pnpm run build",
+    "prepare": "npm run build",
     "watch": "tsc --watch",
     "dev": "tsx watch index.ts"
   },

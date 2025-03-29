@@ -30,7 +30,7 @@ Add this entry to your `claude_desktop_config.json` (on Mac, you'll find it at `
   "mcpServers": {
     "mcp-openai": {
       "command": "npx",
-      "args": ["-y", "@mzxrai/mcp-openai@latest"],
+      "args": ["-y", "@usmansharif525/mcp-openai@latest"],
       "env": {
         "OPENAI_API_KEY": "your-api-key-here (get one from https://platform.openai.com/api-keys)"
       }
@@ -43,7 +43,7 @@ This config lets Claude Desktop fire up the OpenAI MCP server whenever you need 
 
 ## Usage
 
-Just start chatting with Claude and when you want to use OpenAI's models, ask Claude to use them. 
+Just start chatting with Claude and when you want to use OpenAI's models, ask Claude to use them.
 
 For example, you can say,
 
@@ -68,7 +68,7 @@ The server currently supports these models:
 
 1. `openai_chat`
    - Sends messages to OpenAI's chat completion API
-   - Arguments: 
+   - Arguments:
      - `messages`: Array of messages (required)
      - `model`: Which model to use (optional, defaults to gpt-4o)
 
@@ -112,4 +112,4 @@ MIT
 
 ## Author
 
-[mzxrai](https://github.com/mzxrai) 
+[usmansharif525](https://github.com/usmansharif525)
